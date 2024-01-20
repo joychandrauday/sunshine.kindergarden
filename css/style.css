@@ -21,7 +21,7 @@ body {
 a:hover {
     color: #CBCDA9;
 }
-a:active{
+a:visited{
     color: #CBCDA9;
 }
 .header-banner {
