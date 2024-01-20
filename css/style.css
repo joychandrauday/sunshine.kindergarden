@@ -48,3 +48,25 @@ a:visited{
     height: 680px;
     border-radius: 0 8px 8px 0;
 }
+@media (max-width:640px) {
+    .contact-form{
+        padding:50px 20px;
+    }
+    .quality-1{
+        flex-direction: column;
+        gap: 3rem;
+        margin-bottom: 50px;
+    }
+    .quality-2{
+        flex-direction: column-reverse;
+        gap: 3rem;
+        margin-bottom: 15px;
+    }
+    .quality-3{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    hr{
+        width: 100% !important;
+    }
+}
