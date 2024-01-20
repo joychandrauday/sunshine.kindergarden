@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
+/* ==== */
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    transition: all .3s;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+a:hover {
+    color: #CBCDA9;
+}
+a:active{
+    color: #CBCDA9;
+}
+.header-banner {
+    background-image: url('https://github.com/joychandrauday/sunshine.kindergarden/blob/main/Images/banner.png?raw=true');
+    height: 550px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-form form input {
+    border: 0.368px solid #8D8D8D;
+    background: #343333;
+    color: #8D8D8D;
+}
+.contact-form form input:focus-visible {
+    outline: none;
+}
+.contact-form form textarea:focus-visible {
+    outline: none;
+    color: #8D8D8D;
+}
+.contact-map iframe{
+    width: 100%;
+    height: 680px;
+    border-radius: 0 8px 8px 0;
+}
