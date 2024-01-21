@@ -17,13 +17,24 @@ body {
 .container {
     padding: 0 15px;
 }
-
+a{
+    transition: all ease .1s;
+}
 a:hover {
     color: #CBCDA9;
 }
-a:visited{
+
+a:active {
     color: #CBCDA9;
 }
+
+.home-main-section {
+    height: 100vh;
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+
+}
+
 .header-banner {
     background-image: url('https://github.com/joychandrauday/sunshine.kindergarden/blob/main/Images/banner.png?raw=true');
     height: 550px;
@@ -31,42 +42,55 @@ a:visited{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .contact-form form input {
     border: 0.368px solid #8D8D8D;
     background: #343333;
     color: #8D8D8D;
 }
+
 .contact-form form input:focus-visible {
     outline: none;
 }
+
 .contact-form form textarea:focus-visible {
     outline: none;
     color: #8D8D8D;
 }
-.contact-map iframe{
+
+.contact-map iframe {
     width: 100%;
     height: 680px;
     border-radius: 0 8px 8px 0;
 }
+
 @media (max-width:640px) {
-    .contact-form{
-        padding:50px 20px;
+    .contact-form {
+        padding: 50px 20px !important;
     }
-    .quality-1{
+
+    .quality-1 {
         flex-direction: column;
         gap: 3rem;
         margin-bottom: 50px;
     }
-    .quality-2{
+
+    .quality-2 {
         flex-direction: column-reverse;
         gap: 3rem;
         margin-bottom: 15px;
     }
-    .quality-3{
+
+    .quality-3 {
         flex-direction: column;
         gap: 3rem;
     }
-    hr{
+
+    hr {
         width: 100% !important;
+    }
+    .review-wrap{
+        flex-direction: column-reverse;
+        padding: 0 !important;
     }
 }
